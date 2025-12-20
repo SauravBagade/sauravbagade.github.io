@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Saurav Bagade | DevOps Projects</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- Common CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/glow.css" />
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="nav-logo">SAURAV<span>.</span></div>
+  <nav>
+    <a href="index.html">About</a>
+    <a href="career.html">Career</a>
+    <a class="active" href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+    <button id="theme-toggle" class="theme-toggle">
+    <i class="fas fa-moon"></i>
+  </button>
+  </nav>
+</header>
+
+<!-- PROJECTS SECTION -->
+<section class="projects-container">
+
+  <div class="projects-header">
+    <h1>Projects</h1>
+    <p>
+      Real-world DevOps projects focused on automation, cloud infrastructure,
+      CI/CD pipelines, monitoring, and scalability.
+    </p>
+  </div>
+
+  <div class="projects-grid">
+
+    <!-- PROJECT 1 -->
+    <div class="project-card">
+      <h3>CI/CD Pipeline on AWS</h3>
+      <p class="project-desc">
+        End-to-end CI/CD pipeline using GitHub, Jenkins, Docker, and Kubernetes (EKS).
+        Automated build, test, image creation, and deployment to AWS.
+      </p>
+
+      <ul class="project-points">
+        <li>GitHub → Jenkins pipeline automation</li>
+        <li>Docker image build & push</li>
+        <li>Deployment on Amazon EKS</li>
+        <li>IAM, VPC, Security Groups</li>
+      </ul>
+
+      <div class="project-tech">
+        <span>AWS</span>
+        <span>Jenkins</span>
+        <span>Docker</span>
+        <span>Kubernetes</span>
+        <span>GitHub</span>
+      </div>
+    </div>
+
+    <!-- PROJECT 2 -->
+    <div class="project-card">
+      <h3>Infrastructure as Code with Terraform</h3>
+      <p class="project-desc">
+        Provisioned AWS infrastructure using Terraform including EC2, VPC, subnets,
+        route tables, security groups, and IAM roles.
+      </p>
+
+      <ul class="project-points">
+        <li>Reusable Terraform modules</li>
+        <li>State management</li>
+        <li>Version-controlled infrastructure</li>
+      </ul>
+
+      <div class="project-tech">
+        <span>Terraform</span>
+        <span>AWS</span>
+        <span>VPC</span>
+        <span>IAM</span>
+      </div>
+    </div>
+
+    <!-- PROJECT 3 -->
+    <div class="project-card">
+      <h3>Monitoring & Observability Stack</h3>
+      <p class="project-desc">
+        Designed and implemented monitoring using Prometheus, Grafana, and alerting
+        for containerized workloads.
+      </p>
+
+      <ul class="project-points">
+        <li>Metrics collection with Prometheus</li>
+        <li>Dashboards using Grafana</li>
+        <li>Service health monitoring</li>
+      </ul>
+
+      <div class="project-tech">
+        <span>Prometheus</span>
+        <span>Grafana</span>
+        <span>Docker</span>
+        <span>Linux</span>
+      </div>
+    </div>
+
+    <!-- PROJECT 4 -->
+    <div class="project-card">
+      <h3>Configuration Management with Ansible</h3>
+      <p class="project-desc">
+        Automated server configuration, package installation, and application setup
+        using Ansible playbooks.
+      </p>
+
+      <ul class="project-points">
+        <li>Idempotent playbooks</li>
+        <li>Role-based structure</li>
+        <li>Linux server automation</li>
+      </ul>
+
+      <div class="project-tech">
+        <span>Ansible</span>
+        <span>Linux</span>
+        <span>Shell</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+<script src="js/scroll.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

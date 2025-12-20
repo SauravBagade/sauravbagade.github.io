@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512"
+     xmlns="http://www.w3.org/2000/svg" fill="none">
+
+  <!-- Whale Body -->
+  <path d="M63 288h274c16 0 29 13 29 29 0 52-43 95-95 95H159
+           c-53 0-96-43-96-95v-29z"
+        fill="#2496ED"/>
+
+  <!-- Whale Tail -->
+  <path d="M372 250c25-18 51-18 77-6-7 18-25 41-51 49
+           -9-17-18-32-26-43z"
+        fill="#2496ED"/>
+
+  <!-- Containers -->
+  <g fill="#2496ED">
+    <rect x="96" y="208" width="48" height="48"/>
+    <rect x="152" y="208" width="48" height="48"/>
+    <rect x="208" y="208" width="48" height="48"/>
+    <rect x="264" y="208" width="48" height="48"/>
+
+    <rect x="152" y="160" width="48" height="48"/>
+    <rect x="208" y="160" width="48" height="48"/>
+  </g>
+
+</svg>
